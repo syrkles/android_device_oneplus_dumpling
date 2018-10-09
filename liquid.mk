@@ -23,9 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/dumpling/device.mk)
 
 # Inherit some common LiquidRemix stuff.
-$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
+$(call inherit-product, vendor/aoscp/config/common_full_phone.mk)
 
-PRODUCT_NAME := liquid_dumpling
+PRODUCT_NAME := aoscp_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
